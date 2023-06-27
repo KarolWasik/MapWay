@@ -1,0 +1,155 @@
+body,html {
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  color: black;
+  text-align: center;
+  background-color: #fff;
+}
+
+.background-radial-gradient {
+  background-color: hsl(218, 41%, 15%);
+  background-image: radial-gradient(650px circle at 0% 0%,
+      hsl(218, 41%, 35%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%),
+    radial-gradient(1250px circle at 100% 100%,
+      hsl(218, 41%, 45%) 15%,
+      hsl(218, 41%, 30%) 35%,
+      hsl(218, 41%, 20%) 75%,
+      hsl(218, 41%, 19%) 80%,
+      transparent 100%);
+}
+
+#radius-shape-1 {
+  height: 220px;
+  width: 220px;
+  top: -60px;
+  left: -130px;
+  background: radial-gradient(#D1A517, #fff800);
+  overflow: hidden;
+}
+
+#radius-shape-2 {
+  border-radius: 40% 40% 63% 37% / 70% 33% 67% 30%;
+  bottom: -60px;
+  right: -110px;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(#D1A517, #fff800);
+  overflow: hidden;
+}
+
+#radius-shape-3 {
+  border-radius: 40% 40% 63% 37% / 70% 33% 67% 30%;
+  bottom: -300px;
+  left: -920px;
+  width: 300px;
+  height: 300px;
+  background: radial-gradient(#D1A517, #fff800);
+  overflow: hidden;
+}
+
+.bg-glass {
+  background-color: hsla(0, 0%, 100%, 0.9) !important;
+  backdrop-filter: saturate(200%) blur(25px);
+}
+
+a:hover
+{
+  color: #D1A517;
+}
+
+.navbar-nav > li > a:hover 
+{
+color: #2F52A0;
+}
+
+.navbar-nav > li > a 
+{
+font-size: 1.2rem;
+}
+
+#primary
+{
+  background: rgb(209,165,23);
+  background: linear-gradient(55deg, rgba(209,165,23,1) 48%, rgba(194,209,23,1) 100%);
+  border-radius: 70px;
+  border: none;
+  width: 90%;
+  height: 40px;
+  color: #fff;
+}
+
+#primary:hover
+{
+  background: linear-gradient( #D1A517 10.68%, #C2D117 101.68%);
+}
+
+#secondary
+{
+  border: 1px solid #D1A517;
+  border-radius: 70px;
+  width: 90%;
+  height: 40px;
+  color: gray;
+}
+
+#secondary:hover
+{
+  background: linear-gradient( #D1A517 10.68%, #C2D117 101.68%);
+  color: white
+}
+
+#zapom_has
+{
+  color: gray;
+}
+#zapom_has:hover
+{
+  color: #2F52A0;
+}
+
+
+h1 
+{
+  margin: 0;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+h1 span 
+{
+  color: #D1A517;
+}
+
+h2 
+{
+  color: rgba(255, 255, 255, 0.9);
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+
+#main_p
+{
+  color: #fff;
+  font-size: 2rem;
+}
+
+@media (max-width: 768px) 
+{
+
+  #main_p
+  {
+    font-size: 1.5rem;
+  }
+}
